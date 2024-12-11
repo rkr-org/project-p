@@ -1,0 +1,5 @@
+aws_region            = "ap-south-1"
+environment           = "prod"
+ecs_cluster_name      = "test-ecs-cluster"
+ecr_backend_repo_name = "backend"
+ecr_image_tag         = "latest"

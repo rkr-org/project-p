@@ -17,9 +17,10 @@ provider "aws" {
   region = var.aws_region
   default_tags {
     tags = {
-      "repository" = "test-repository"
-      "managed-by" = "terraform"
-      "aws-region" = var.aws_region
+      "repository"             = "test-repository"
+      "created-and-managed-by" = "terraform"
+      "aws-region"             = var.aws_region
+      "environment"            = var.environment
     }
   }
 }

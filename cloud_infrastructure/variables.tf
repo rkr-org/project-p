@@ -9,6 +9,7 @@ variable "aws_region" {
 variable "environment" {
   type        = string
   description = "Name of the environment"
+  default     = ""
 }
 
 variable "ecs_cluster_name" {
